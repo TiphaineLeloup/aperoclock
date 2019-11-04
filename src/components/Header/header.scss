@@ -1,0 +1,15 @@
+@import 'src/styles/vars';
+
+.ant-layout-header {
+  background-color : white;
+}
+
+.header {
+  text-align: center;
+
+  &-title {
+    color: $yellow;
+    font-size: 3em;
+    font-family: Brandon-grotesque;
+  }
+}

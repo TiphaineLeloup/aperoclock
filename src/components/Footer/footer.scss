@@ -1,0 +1,24 @@
+@import 'src/styles/vars';
+
+.footer {
+
+  background-color: $lightergreen;
+  padding: 0.8em;
+  text-align: center;
+
+  &-text {
+    color: white;
+    font-family: stratum;
+    font-size: 1.1em;
+   
+
+    
+  }
+
+  a {
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
